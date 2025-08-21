@@ -41,13 +41,13 @@ sort: 1
 
 1. `resources/views` ディレクトリ内に、`index.blade.php` を作成する
 2. コードを `index.blade.php` に記述する
-   - コードは前期の[ミニショップ①(ジャンル選択画面、ジャンル別商品一覧画面)](https://2024web1.github.io/web_app_dev/ec-site-i/)を参考にし、[ビュー、ルーティング](../shop_index/README.md)の章で学んだ内容を反映させること
+   - コードは前期の[仕様書① : ジャンル選択画面、ジャンル別商品一覧画面](https://2025web1.github.io/11-minishop-product/item-1.html#%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E9%81%B8%E6%8A%9E%E7%94%BB%E9%9D%A2indexphp)を参考にし、「ビュー、ルーティング」の章で学んだ内容を反映させること
      - `<form>`タグの`action`属性は、ルーティング設定ができていないので、空欄(`action=""`)にする
-     - ディレクティブ(`@`ではじまるやつ)の記載を忘れずに！
+     - CSRFディレクティブ(ヒント：`@`ではじまるやつ)の記載を忘れずに！
 
 ## ③ルーティングの設定
 
-- [ビュー、ルーティング](../shop_index/README.md)の章を参考に、`routes/web.php` にルーティングを設定する
+- 「ビュー、ルーティング」の章を参考に、`routes/web.php` にルーティングを設定する
 
 ## 動作確認
 
